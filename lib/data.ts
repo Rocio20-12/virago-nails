@@ -1,8 +1,8 @@
-export const WA_NUMBER = "5493410000000"; // TODO: reemplazar por el número real
+export const WA_NUMBER = "5493413742508"; // TODO: reemplazar por el número real
 export const waLink = (msg = "Hola! Quiero reservar un turno en Virago Nails") =>
   `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`;
-export const INSTAGRAM = "https://instagram.com/viragonails"; // TODO
-export const ADDRESS = "Rosario, Santa Fe, Argentina"; // TODO: dirección exacta
+export const INSTAGRAM = "https://www.instagram.com/virago.nails"; // TODO
+export const ADDRESS = "Blvd. Rondeau 364, Rosario, Santa Fe, Argentina"; // TODO: dirección exacta
 export const tones = ["from-nude to-rose/60","from-beige to-nude","from-mist to-nude","from-rose/50 to-beige","from-ink/80 to-rose/70","from-nude to-mist"];
 export const services = [
   { slug: "semipermanente", name: "Esmaltado Semipermanente", desc: "Color impecable y brillo intenso hasta 3 semanas, con preparación cuidada de la uña.", dur: "60 min", price: "Desde $18.000" },
