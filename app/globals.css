@@ -1,0 +1,8 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html{scroll-behavior:smooth}
+body{@apply bg-white text-ink font-sans antialiased}
+.btn{@apply inline-flex items-center justify-center rounded-full px-7 py-3.5 text-sm font-medium tracking-wide transition active:scale-95}
+.btn-dark{@apply btn bg-ink text-white hover:bg-rose}
+.btn-line{@apply btn border border-ink/20 hover:border-ink hover:bg-ink hover:text-white}
+.eyebrow{@apply text-xs uppercase tracking-[.25em] text-rose}
+.h2{@apply font-serif text-4xl md:text-5xl leading-tight}
