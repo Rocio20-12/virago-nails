@@ -5,12 +5,26 @@ export const INSTAGRAM = "https://www.instagram.com/virago.nails"; // TODO
 export const ADDRESS = "Blvd. Rondeau 364, Rosario, Santa Fe, Argentina"; // TODO: dirección exacta
 export const tones = ["from-nude to-rose/60","from-beige to-nude","from-mist to-nude","from-rose/50 to-beige","from-ink/80 to-rose/70","from-nude to-mist"];
 export const services = [
-  { slug: "semipermanente", name: "Esmaltado Semipermanente", desc: "Color impecable y brillo intenso hasta 3 semanas, con preparación cuidada de la uña.", dur: "60 min", price: "Desde $18.000" },
-  { slug: "nail-art", name: "Nail Art", desc: "Diseños exclusivos hechos a mano: minimal, french, glitter, efecto espejo y más.", dur: "30–90 min", price: "Desde $6.000" },
-  { slug: "soft-gel", name: "Soft Gel", desc: "Uñas livianas y naturales con fórmula flexible. Ideal para largo y resistencia sin daño.", dur: "120 min", price: "Desde $32.000" },
-  { slug: "kapping-gel", name: "Kapping Gel", desc: "Refuerzo sobre uña natural para ganar fortaleza y acompañar su crecimiento.", dur: "90 min", price: "Desde $26.000" },
-  { slug: "extensiones", name: "Extensiones", desc: "Esculpidas a medida en la forma y el largo que elijas, con acabado perfecto.", dur: "150 min", price: "Desde $40.000" },
-  { slug: "estetica-manos", name: "Estética de Manos", desc: "Manicura de spa: limpieza de cutículas, exfoliación e hidratación profunda.", dur: "45 min", price: "Desde $14.000" },
+  { slug: "semipermanente-liso",name: "Esmaltado semipermanente liso", desc: "Esmaltado semipermanente sobre uña natural. Resultado prolijo y brillo intenso.", dur: "90 min", price: "$29.000 ARS",},
+  { slug: "semipermanente-nail-art-french", name: "Esmaltado semipermanente + Nail Art/French", desc: "Esmaltado semipermanente sobre uña natural. Incluye francesitas, polvos, brillos, strass y dibujos simples.",
+    dur: "90 min", price: "$31.000 ARS",},
+  { slug: "estetica-de-manos", name: "Estética de manos", desc: "Incluye preparación cuidadosa de uñas y cutículas, limado y perfeccionamiento de la forma, logrando una apariencia limpia, prolija y armónica. Finaliza con hidratación mediante aceite de cutículas y crema humectante, brindando una experiencia de bienestar y manos visiblemente cuidadas.",
+    dur: "30 min", price: "$25.000 ARS",},
+  { slug: "extensiones-soft-gel-liso", name: "Extensiones Soft Gel liso", desc: "Extensión sobre uñas mediante tips de gel. Permite lograr el largo y la forma deseada con una apariencia natural.", dur: "120 min", price: "$36.000 ARS",},
+  { slug: "extensiones-soft-gel-nail-art-french", name: "Extensiones Soft Gel + Nail Art/French", desc: "Extensión sobre uñas mediante tips de gel. Incluye francesitas, polvos, brillos, strass y dibujos basicos.", dur: "120 min", price: "$38.000 ARS",},
+  { slug: "kapping-gel-liso", name: "Kapping gel liso", desc: "Refuerzo de gel sobre uña natural para aportar resistencia, acompañar la flexibilidad natural de la uña y favorecer su protección.", dur: "90 min", price: "$33.000 ARS",},
+  { slug: "kapping-gel-nail-art-french", name: "Kapping gel + Nail Art/French", desc: "Refuerzo de gel sobre uña natural. Incluye francesitas, polvos, brillos, strass o dibujos simples.", dur: "120 min", price: "$35.000 ARS",},
+  { slug: "retiro-otro-salon-kapping-diseno", name: "Retiro semi/kapping/softgel de otro salón + Kapping Gel con diseño", desc: "Retiro cuidadoso de trabajo de otro salón seguido de Kapping Gel con diseño.",dur: "90 min",price: "$39.000 ARS",},
+  { slug: "retiro-virago-kapping-nail-art-french", name: "Retiro semi/kapping/softgel de Virago + Kapping Gel + Nail Art/French", desc: "El precio varía según diseño.", dur: "120 min", price: "$35.000 ARS",},
+  { slug: "retiro-virago-soft-gel-nail-art-french", name: "Retiro semi/kapping/softgel de Virago + Soft Gel + Nail Art/French", desc: "El precio varía según diseño.", dur: "120 min", price: "$38.000 ARS",},
+  { slug: "retiro-otro-salon-kapping-liso", name: "Retiro semi/kapping/softgel de otro salón + Kapping Gel liso",desc: "Retiro cuidadoso de trabajo de otro salón seguido de Kapping Gel liso.", dur: "120 min", price: "$37.000 ARS",},
+  { slug: "retiro-otro-salon-semipermanente-liso",name: "Retiro semi/kapping/softgel de otro salón + Semipermanente liso", desc: "Retiro cuidadoso de trabajo de otro salón seguido de esmaltado semipermanente liso.", dur: "90 min", price: "$33.000 ARS",},
+  { slug: "retiro-otro-salon-soft-gel-liso", name: "Retiro semi/kapping/softgel de otro salón + Soft Gel liso", desc: "Retiro cuidadoso de trabajo de otro salón seguido de Extensiones Soft Gel liso.", dur: "120 min", price: "$40.000 ARS",},
+  { slug: "retiro-virago-kapping-liso", name: "Retiro semi/kapping/softgel de Virago + Kapping Gel liso", desc: "Retiro cuidadoso de trabajo realizado en Virago seguido de Kapping Gel liso.", dur: "90 min",price: "$33.000 ARS",},
+  { slug: "retiro-virago-semipermanente-liso", name: "Retiro semi/kapping/softgel de Virago + Semipermanente liso", desc: "Retiro cuidadoso de trabajo realizado en Virago seguido de esmaltado semipermanente liso.", dur: "90 min", price: "$29.000 ARS",},
+  { slug: "retiro-virago-semipermanente-nail-art-french", name: "Retiro semi/kapping/softgel de Virago + semipermanente + Nail Art/French", desc: "El precio varía según diseño.", dur: "90 min", price: "$31.000 ARS",},
+  { slug: "retiro-virago-soft-gel-liso", name: "Retiro semi/kapping/softgel de Virago + Soft Gel liso", desc: "Retiro cuidadoso de trabajo realizado en Virago seguido de Extensiones Soft Gel liso.", dur: "120 min", price: "$36.000 ARS",},
+  { slug: "solo-retiro-acabado-prolijo", name: "Solo retiro de semipermanente/kapping/soft gel + acabado prolijo de uñas", desc: "Retiro seguro del sistema y terminación prolija de las uñas naturales.", dur: "30 min", price: "$25.000 ARS",},
 ];
 export const categories = ["Todos", "Semipermanente", "Nail Art", "Soft Gel", "Extensiones"];
 export const gallery = Array.from({ length: 12 }, (_, i) => ({
